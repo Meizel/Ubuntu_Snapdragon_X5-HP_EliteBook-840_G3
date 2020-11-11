@@ -1,10 +1,19 @@
 # Ubuntu_Snapdragon_X5-HP_EliteBook-840_G3
 add Snapdragon x5 lte modem on debian based linux
+# Install ModemManager
+
+Make sure you install the latest ModemManager using the snap store.
+
+```snap
+snap install modem-manager
+```
+
 # Create systemd service
 
 Create a file /etc/systemd/system/lte.service
 
 Put in the following lines
+
 ```service
 [Unit]
 Description=lte script

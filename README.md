@@ -1,4 +1,4 @@
-# Ubuntu_Snapdragon_X5-HP_EliteBook-840_G3
+# Ubuntu Snapdragon X5 HP EliteBook 840 G3
 add Snapdragon x5 lte modem on debian based linux
 # Install ModemManager
 

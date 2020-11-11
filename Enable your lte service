@@ -1,0 +1,5 @@
+# Enable your lte service
+
+systemctl enable lte
+
+# It will run on boot as root.

@@ -29,7 +29,7 @@ WantedBy=multi-user.target
 
 This is the shell script to connect the snapdragon as A modem.
 
-Safe the file in your root directory.
+Safe the file in your /bin directory.
 
 ```sh
 #!/bin/bash
@@ -42,7 +42,7 @@ sudo usb_modeswitch -v 0x03f0 -p 0x9d1d -u3
 Make lte-check.sh executable in Terminal 
 
 ```sh
-sudo chmod -R 755 /lte-check.sh
+sudo chmod -R 755 lte-check.sh
 ```
 
 ## Enable your lte service

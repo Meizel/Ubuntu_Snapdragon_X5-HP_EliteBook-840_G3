@@ -19,7 +19,7 @@ Put in the following lines
 Description=lte script
 
 [Service]
-ExecStart=/lte-check.sh
+ExecStart=~/lte-check.sh
 
 [Install]
 WantedBy=multi-user.target
@@ -29,7 +29,7 @@ WantedBy=multi-user.target
 
 This is the shell script to connect the snapdragon as A modem.
 
-Safe the file in your /bin directory.
+Safe the file in your ~/ directory.
 
 ```sh
 #!/bin/bash
